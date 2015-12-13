@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Consumo de Energia"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular Energia"
+        android:id="@+id/bCalcular"
+        android:onClick="btnCalcular"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView android:text="@string/main_consumo"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="false"
+        android:textSize="20dp"
+        android:id="@+id/txtAux5" />
+    <ListView
+        android:layout_marginTop="30dp"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:text="@string/hello_world" />
+</LinearLayout>

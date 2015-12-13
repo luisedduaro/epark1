@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luiseduardo.eparkeletrica" >
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TelaInicial"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main_tela_principal" >
+        </activity>
+        <activity
+            android:name=".Main_calcular"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_ContatoUI" >
+        </activity>
+        <activity
+            android:name=".DAOCadastro.MainCadastro"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main_Consumo" >
+        </activity>
+        <activity
+            android:name=".DAOCadastro.CadastroUI"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_ConsumoUI" >
+        </activity>
+        <activity
+            android:name=".DAOConsumo.MainConsumo"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main_calcularconsumo" >
+        </activity>
+        <activity
+            android:name=".DAOConsumo.ConsumoUI"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_tela_inicial" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/">
+
+    <TextView
+        android:text="Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtAux1"
+        android:text="@string/main_contato1"
+        android:gravity="right"
+        android:width="70dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@+id/edtNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:id="@+id/edtNome"
+        android:width="190dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/txtAux1"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/txtAux3"
+        android:text="@string/main_contato2"
+        android:width="70dip"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@+id/edEndereco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/edEndereco"
+        android:width="190dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/edtNome"
+        android:layout_alignLeft="@+id/edtNome"
+        android:layout_alignStart="@+id/edtNome"
+        android:layout_alignRight="@+id/edtNome"
+        android:layout_alignEnd="@+id/edtNome"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:id="@+id/txtAux5"
+        android:text="@string/main_contato3"
+        android:width="70dip"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtAux3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/editTelefone"
+        android:width="190dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@+id/txtAux5"
+        android:layout_alignLeft="@+id/edEndereco"
+        android:layout_alignStart="@+id/edEndereco"
+        android:layout_alignRight="@+id/edEndereco"
+        android:layout_alignEnd="@+id/edEndereco"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="Confirmar"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConfirmar"
+            android:layout_below="@+id/editTelefone"
+            android:onClick="btnConfirmar_click"
+            android:layout_alignParentLeft="true"/>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="Cancelar"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:id="@+id/btnCancelar"
+            android:layout_below="@+id/editTelefone"
+            android:onClick="btnCancelar_click"
+            android:layout_alignParentRight="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

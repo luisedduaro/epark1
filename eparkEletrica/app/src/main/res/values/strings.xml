@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">epark</string>
+
+    <string name="main_consumo">Historico de Consumo</string>
+    <string name="main_cadastro">Meus Dados</string>
+
+    <string name="main_contato_row1">Nome:</string>
+    <string name="main_contato_row2">Endereco:</string>
+    <string name="main_contato_row3">Telefone:</string>
+
+
+    <string name="main_contato1">Nome:</string>
+    <string name="main_contato2">Endereco:</string>
+    <string name="main_contato3">Telefone:</string>
+
+    <string name="main_consumo_row1">Registro Inicial:</string>
+    <string name="main_consumo_row2">Registro Final:</string>
+    <string name="main_consumo_row3">Mes:</string>
+
+
+    <string name="main_consumo1">Registro Inicial:</string>
+    <string name="main_consumo2">Registro Inicial:</string>
+    <string name="main_consumo3">Mes:</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_tela_principal">MainActivity</string>
+    <string name="title_activity_main">mainActivity</string>
+    <string name="title_activity_ContatoUI">MainActivityContatoUI</string>
+    <string name="title_activity_main_Consumo">MainConsumo</string>
+    <string name="title_activity_ConsumoUI">MainActivityConsumoUI</string>
+    <string name="title_activity_main_calcularconsumo">Main_calcularconsumo</string>
+    <string name="title_activity_tela_inicial">TelaInicial</string>
+    <string name="title_activity_main_calcular">Main_calcular</string>
+</resources>
